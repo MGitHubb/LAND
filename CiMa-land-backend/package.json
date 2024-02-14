@@ -1,0 +1,39 @@
+{
+  "name": "cima-land-backend",
+  "version": "1.0.0",
+  "description": "Future project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miculaprozar/CiMa-land-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miculaprozar/CiMa-land-backend/issues"
+  },
+  "homepage": "https://github.com/miculaprozar/CiMa-land-backend#readme",
+  "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.14.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.41.2",
+    "cors": "^2.8.5",
+    "datauri": "^4.1.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.5.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0",
+    "streamifier": "^0.1.1"
+  }
+}
